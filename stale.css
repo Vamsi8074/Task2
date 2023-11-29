@@ -1,0 +1,115 @@
+body{
+    background-image: url("img5.avif");
+    background-size: 125%;
+    background-position: -300px 0px;
+    }
+    div.main{
+        width: 400px;
+        margin: 100px auto 0px auto;
+        border: 2px solid fuchsia;
+        border-radius: 45px;
+       
+    
+    }
+    h1{
+        text-align: center;
+        padding: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        font-style: italic;
+    }
+    div.register{
+        background-color: rgba(red , green , blue, alpha)(0,0,0,0.5);
+        width: 100;
+        font-size: 10px;
+        border-radius: 1px solid rgba (255,255,255,0.3);
+        box-shadow: 2px 2px 15px;
+        color: #fff;
+    
+    }
+    form#register{
+        margin: 40px;
+    
+    }
+    label{
+        font-family: sans-serif;
+        font-size: 18px;
+        font-style: 300px;
+        
+    }
+    input,button{
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: 0;
+    padding: 8px;
+    background-color: #fff;
+    box-shadow: inset 1px apx 1px;
+    }
+    button{
+        display: block;
+        margin: auto;
+        width: 40%;
+    }
+    
+   #submit{
+        width: 200px;
+        padding: 8px;
+        font-size: 16px;
+        font-family: sans-serif;
+        border-radius: 5px;
+        background-color:orangered;
+        color: #ffffffbb;
+        cursor: pointer;
+        border:  1px solid;
+        box-shadow:  1px 1apx 5px; 
+        margin-bottom: 22px;
+    
+    }
+    label,span,h1{
+        text-shadow:  1px 1apx 5px;
+    }
+    button{
+        cursor: pointer;
+        background-color: coral;
+    }
+    button:hover{
+        background-color:greenyellow;
+    }
+    #error,#error1,#error2,#error3{
+        color: red;
+        font-size: 20px;
+        
+    }
+    #success{
+        color: rgb(133, 233, 10);
+    }
+
+@media only screen and (min-width:325px )  {
+
+    div.main{
+        width: 40%;
+        margin:auto;
+        
+       
+    
+    }
+    label{
+        font-size: 40px;
+        font-style: 300px;
+        text-align: center;
+    display: block;
+    color: aliceblue;
+        
+    }
+    input,button{
+        width: 300px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        outline: 0;
+        padding: 8px;
+        background-color: #fff;
+        box-shadow: inset 1px apx 1px;
+        }
+        
+}
